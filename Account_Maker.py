@@ -23,11 +23,11 @@ import time
 
 
 # Setting up Chrome options
-chrome_options = Options()
-chrome_options.add_argument('--headless')
+#chrome_options = Options()
+#chrome_options.add_argument('--headless')
 
 # Initializing the Chrome WebDriver
-driver = webdriver.Chrome(options=chrome_options)
+driver = webdriver.Chrome()#(options=chrome_options)
 
 # Target URL
 url = 'https://www.stremio.com/login'
