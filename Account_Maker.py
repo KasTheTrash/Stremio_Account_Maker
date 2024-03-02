@@ -5,6 +5,23 @@ from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 import time
 
+
+### Use this section only if you want to permanently add a username or password via xml format ###
+##################################################################################################
+#
+## Specify the XML file from which we will read the data
+#filename = "data.xml"
+#
+## Read the data from the XML file
+#tree = ET.parse(filename)
+#root = tree.getroot()
+#
+## Find the value of the <username> tag
+#email = root.find("username").text
+#
+##################################################################################################
+
+
 # Setting up Chrome options
 chrome_options = Options()
 chrome_options.add_argument('--headless')
